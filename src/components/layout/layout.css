@@ -1,0 +1,48 @@
+.layout {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    flex: 0 0 200px;
+    background-color: #000;
+    opacity: 0.8;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow: auto;
+    padding: 20px;
+}
+
+.content {
+    width: 100%;
+    overflow: auto;
+    height: 100%;
+}
+
+@media (max-width: 760px) {
+    .layout {
+        display: flex;
+        flex-direction: column;
+        height: 100% !important;
+        width: 100% !important;
+        overflow: hidden;
+    }
+
+    .sidebar {
+        width: 100%;
+    }
+
+    .main {
+        height: 74.4vh;
+        width: 100%;
+    }
+
+    .content {
+        display: flex;
+        width: 95%;
+    }
+}

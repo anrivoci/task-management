@@ -1,0 +1,253 @@
+.modal_container {
+    h1 {
+        color: #fff;
+        margin: 0;
+        opacity: 0.7;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    h2 {
+        color: #fff;
+        margin: 0;
+        opacity: 0.7;
+        font-size: 16px;
+        font-weight: bold;
+    }
+}
+
+.delete {
+    cursor: pointer;
+    margin-left: 48px;
+    color: #fff;
+    font-weight: bold;
+    opacity: 0.7;
+    text-decoration: underline;
+}
+
+.description {
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+    opacity: 0.7;
+    text-decoration: underline;
+}
+
+.description:hover {
+    color: #00875A;
+}
+
+.delete:hover {
+    color: red;
+    opacity: 0.6;
+}
+
+.header_title,
+.activity_description,
+.modal_description {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 14px;
+}
+
+.modal_description {
+    margin-top: 60px;
+}
+
+.text_area {
+    cursor: pointer;
+    background-color: #45505B !important;
+    opacity: 1;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    opacity: 0.7;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.text_area:hover {
+    background-color: #58626b;
+}
+
+.text_area::placeholder,
+.comment_area::placeholder {
+    color: #fff;
+    opacity: 0.7;
+}
+
+.area_wrapper,
+.comment_wrapper {
+    padding: 10px;
+    margin-left: 24px;
+}
+
+.activity_description {
+    margin-left: -10px;
+    margin-top: 50px;
+
+    h2 {
+        margin-left: -8px;
+        margin-top: -4px;
+    }
+}
+
+.comment_wrapper {
+    position: relative;
+}
+
+.comment_area {
+    cursor: pointer;
+    /* background-color: #282E33 !important; */
+    opacity: 1;
+    border: none;
+    /* color: #fff; */
+    font-size: 14px;
+    opacity: 0.7;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.avatar {
+    position: absolute;
+    left: -32px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 16px;
+    background-color: #00875A;
+    color: #fff;
+    font-size: 16px;
+    opacity: 0.7;
+    font-weight: bold;
+}
+
+.comment_user_wrapper {
+    position: relative;
+    margin-top: 20px;
+
+    .user_area {
+        background-color: #22272B;
+        border: none;
+        color: #fff;
+        font-size: 12px;
+        opacity: 0.6;
+        font-weight: bold;
+    }
+
+    h3 {
+        color: #fff;
+        font-size: 14px;
+        opacity: 0.7;
+        font-weight: bold;
+        margin: 0;
+    }
+
+    .user_avatar {
+        position: absolute;
+        left: -40px;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 16px;
+        background-color: #2d0087;
+        color: #fff;
+        font-size: 16px;
+        opacity: 0.6;
+        font-weight: bold;
+    }
+}
+
+.user_section {
+    position: relative;
+}
+
+.user_avatar {
+    position: absolute;
+    top: 0;
+    left: -10px;
+    background-color: #2d0087;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    p {
+        color: #fff;
+        font-size: 16px;
+        opacity: 0.6;
+        font-weight: bold;
+    }
+}
+
+.other_comments {
+    width: 90%;
+    margin-left: 36px;
+    margin-bottom: 6px;
+
+}
+
+.username {
+    margin-left: 34px;
+
+    p {
+        margin: 6px;
+        color: #fff;
+        font-size: 16px;
+        opacity: 0.6;
+        font-weight: bold;
+    }
+}
+
+.header_container {
+    position: relative;
+}
+
+.select_assign {
+    background-color: #00875A;
+    width: 40px;
+    cursor: pointer;
+    height: 40px;
+    margin-left: -6px;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #fff;
+    opacity: 0.7;
+    font-weight: bold;
+}
+
+.members {
+    font-size: 18px;
+    color: #fff;
+    opacity: 0.7;
+    font-weight: bold;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.members:hover {
+    font-size: 18px;
+    color: #fff;
+    opacity: 1;
+    font-weight: bold;
+}
+
+.flex_items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
